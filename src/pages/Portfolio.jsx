@@ -3,7 +3,6 @@ import Project from "../components/Project";
 const projects = [
   { title: "Project 1", image: "link-to-image", deployedLink: "link-to-live", repoLink: "link-to-repo" },
   { title: "Project 2", image: "link-to-image", deployedLink: "link-to-live", repoLink: "link-to-repo" },
-  // Add more projects
 ];
 
 function Portfolio() {

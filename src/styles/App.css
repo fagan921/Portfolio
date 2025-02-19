@@ -1,0 +1,90 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+main {
+  padding-top: 80px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+/* Larger and more modern text styling */
+h1, h2, h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00c4ff; /* Matches navbar hover color */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  width: 125px; 
+  height: 125px;
+  border-radius: 50%; 
+  border: 3px solid #00c4ff; 
+  object-fit: cover; 
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 196, 255, 0.4); 
+}
+
+
+.button {
+  background: #00c4ff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background: #008ecf;
+}
+
+/* Smooth fade-in animation */
+section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
